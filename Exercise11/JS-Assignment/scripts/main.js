@@ -19,7 +19,7 @@ function update() {
         document.getElementById('p1_valid').innerHTML = true;
     } else {
         document.getElementById('p1_valid').innerHTML = false;
-        document.getElementsByClassName('part-1')[0].classList.add('invalid'); //Bonus: Add class if input isn't valid.
+        document.getElementsByClassName('part-1')[0].classList.add('invalid'); //Set class to invalid if fasle
     };
 
     document.getElementById('p1_fullNameLength').innerHTML = firstName.length + lastName.length;

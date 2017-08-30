@@ -1,3 +1,106 @@
 * {
     box-sizing:border-box;
 }
+
+/*Global styles */
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* Header and nav */
+header {
+    margin: 10px;
+}
+
+header img {
+    padding:5px 30px;
+}
+
+header nav {
+    background-color: #a00;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 15px;
+}
+
+/* Padding for sections */
+section.top, section.currentEvents, section.recentPosts {
+    padding:0 30px;
+}
+/* Top section */
+.top img.primary {
+    float: left;
+    padding: 10px;
+    width: 66.66666666%;
+}
+
+.top img.secondary {
+    float: right;
+    padding: 2px;
+    width: 33.3333%;
+    max-height: 50%;
+}
+
+/* Current events and recent posts */
+section .subsectionHeader {
+    clear: both;
+    color: #a00;
+    border: 1px solid #a00;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+.currentEvents img {
+    float:left;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+
+/* Recent Posts articles */
+section.recentPosts {
+    float: left;
+    width: 70%;
+}
+
+.recentPosts header {
+    text-align: center;
+    width: 960px;
+}
+
+.recentPosts article {
+    border-right: 1px solid #a00;
+}
+
+/* Sponsors */
+aside.sponsors {
+    float: right;
+    padding-top: 60px;
+    width:25%;
+}
+
+
+footer {
+    clear:both;
+}
