@@ -1,19 +1,22 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
+
 /*Global styles */
+
 body {
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .wrapper {
@@ -21,19 +24,21 @@ a:hover {
     width: 960px;
 }
 
+
 /* Header and nav */
+
 header {
     margin: 10px;
 }
 
 header img {
-    padding:5px 30px;
+    padding: 5px 30px;
 }
 
 header nav {
     background-color: #a00;
     border-radius: 25px;
-    padding: 5px;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -43,11 +48,18 @@ header nav a {
     padding: 5px 15px;
 }
 
+
 /* Padding for sections */
-section.top, section.currentEvents, section.recentPosts {
-    padding:0 30px;
+
+section.top,
+section.currentEvents,
+section.recentPosts {
+    padding: 0 30px;
 }
+
+
 /* Top section */
+
 .top img.primary {
     float: left;
     padding: 10px;
@@ -61,8 +73,10 @@ section.top, section.currentEvents, section.recentPosts {
     max-height: 50%;
 }
 
+
 /* Current events and recent posts */
-section .subsectionHeader {
+
+.subsectionHeader {
     clear: both;
     color: #a00;
     border: 1px solid #a00;
@@ -72,35 +86,70 @@ section .subsectionHeader {
 }
 
 .currentEvents img {
-    float:left;
+    float: left;
     width: 20%;
     margin: 0 auto;
     padding: 5px 20px;
 }
 
-/* Recent Posts articles */
+
+/* Recent Posts section and articles */
+
 section.recentPosts {
     float: left;
-    width: 70%;
-}
-
-.recentPosts header {
-    text-align: center;
-    width: 960px;
-}
-
-.recentPosts article {
+    width: 66.6666%;
     border-right: 1px solid #a00;
 }
 
-/* Sponsors */
-aside.sponsors {
-    float: right;
-    padding-top: 60px;
-    width:25%;
+section.recentPosts article {
+    border-bottom: 1px solid #a00;
+    overflow: hidden;
+}
+
+section.recentPosts img {
+    float:left;
+    max-width: 50%;
+    padding: 5px;
+}
+
+section.recentPosts a {
+    color: #a00;
 }
 
 
+/* Sponsors */
+
+aside.sponsors {
+    float: right;
+    width: 33.333%;
+}
+
+aside.sponsors img {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+aside.sponsors header {
+    text-align: center;
+}
+
+/* Footer and footer nav */
+
 footer {
-    clear:both;
+    clear: both;
+}
+
+footer h3 {
+    float: left;
+}
+
+footer nav {
+    float: right;
+    margin: 10px;
+}
+
+footer nav a {
+    color: #a00;
+    padding: 5px;
 }
