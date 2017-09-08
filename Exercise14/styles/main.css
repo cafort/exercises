@@ -1,0 +1,62 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background: #233B49;
+  color: #fff;
+  margin: 20px auto;
+  width: 500px;
+}
+
+/* Label and field pairs. May be a better way to do this. */
+.checkgroup {
+  padding: 20px;
+}
+
+.inputgroup {
+  padding: 20px;
+}
+
+/* Block display for input fields, and set typography and other styles */
+.inputgroup input, select {
+  background: #98C1D9;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  display: block;
+  width: 100%;
+  font-size: 36px;
+}
+
+#message {
+  color: red;
+}
+
+/*Style button */
+button {
+  background: none;
+  border: 2px solid #98C1D9;
+  color: #fff;
+  font-size: 36px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+button:hover {
+  background: #172026;
+}
+
+button:active {
+  background: #98C1D9;
+  color: #172026;
+}
+
+/* Invalid class */
+input.invalid, select.invalid {
+  border: 2px solid red;
+  background: #a99;
+}
