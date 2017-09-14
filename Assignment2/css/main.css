@@ -1,0 +1,175 @@
+/* Global styles */
+body {
+    background-color: #888;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #fff;
+}
+
+h3,
+h4,
+a {
+    color: #30396D;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* Set wrapper width and center */
+
+.wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+/* Top nav and hero section */
+
+section.hero {
+    background-image: url('../sky.jpeg');
+    height: 410px;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero header {
+    clear: both;
+    margin: 130px auto;
+    text-align: center;
+    width: 600px;
+}
+
+.hero header h1 {
+    font-size: 56px;
+    font-weight: normal;
+}
+
+
+/* Main section: header, date, article */
+
+section.main {
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+aside.pullquote {
+    border: 1px solid #888;
+    font-style: italic;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+p.attr {
+    text-align: right;
+}
+
+
+/* Sidebar */
+
+aside.sidebar {
+    color: #30396D;
+    float: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 20%;
+}
+
+aside img {
+    border: 2px solid #30396D;
+    padding: 1px;
+    width: 100%;
+}
+
+aside ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+aside section {
+    border-bottom: 2px solid #30396D;
+    padding-bottom: 20px;
+}
+
+.tags a {
+    border: 1px solid #888;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 3px 5px 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.tags a:hover {
+    border: 1px solid #000;
+}
+
+
+/* Footer */
+
+footer {
+    background: #30396D;
+    clear: both;
+    color: #fff;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer section {
+    float: left;
+    width: 31%;
+    padding-left: 20px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer li {
+    padding: 4px 0;
+}
+
+.socials a {
+    border: 1px solid white;
+    color: #fff;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Clear floats */
+
+.clear {
+    clear: both;
+}
