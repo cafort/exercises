@@ -21,10 +21,10 @@ $(document).ready(function () {
     $.get(prependUrl, function (result) {
         var prependElm = $("#prepend");
         var html = "";
-        //Work from the end of array backwards to 0 index and add to html var
-        for (var i = result.length -1; i >= 0;  i--){
+        //Work forward through array but this time put each album at the front of the existing html
+        for (var i = 0; i < result.length;  i++){
             var album = result[i];
-            html += "<li> Index: " + [i] + " | Title: " + album.title;
+            html = "<li> Index: " + [i] + " | Title: " + album.title + html;
         };
         //Prepend completed html var to #prepend ul
         prependElm.prepend(html);
