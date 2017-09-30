@@ -187,3 +187,7 @@ select {
 .clear {
     clear: both;
 }
+
+.invalid {
+    background-color: pink;
+}
