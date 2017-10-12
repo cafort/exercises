@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 960px;
+    margin: 20px auto;
+}
+
+.fl {
+    float: left;
+    width: 50%;
+}
+
+.fr {
+    float: right;
+    width: 50%;
+}
+
+
+/* Set text to blue if screen is under 500px wide */
+
+@media screen and (max-width: 500px) {
+    body {
+        color: blue;
+    }
+}
+
+
+/* Set background color of paragraphs to gray between 400px and 800px */
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    p {
+        background-color: gray;
+    }
+}
+
+
+/* Set font size of OL to 20px if width > 960px */
+
+@media screen and (min-width: 960px) {
+    ol {
+        font-size: 20px;
+    }
+}
+
+
+/* Extra settings if screen is under 480px */
+
+@media screen and (max-width: 480px) {
+    .content {
+        width: 100%;
+    }
+    .fl,
+    .fr {
+        clear: both;
+    }
+    .fl,
+    .fr {
+        width: 100%;
+    }
+}
