@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box
+}
+
+header,
+article {
+    border: 1px solid black;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px auto;
+}
+
+nav a {
+    font-size: 2em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.hero img {
+    padding: 1em;
+    width: 100%;
+}
+
+.cards article {
+    border: 1px solid black;
+}
+
+.cards article img {
+    width: 100%
+}
