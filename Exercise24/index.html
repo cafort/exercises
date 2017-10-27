@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-3">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="col-md-9">
+                <nav class="d-flex justify-content-around">
+                    <a href="#">Animals</a>
+                    <a href="#">Architecture</a>
+                    <a href="#">Technology</a>
+                    <a href="#">Nature</a>
+                </nav>
+            </div>
+
+        </header>
+        <section class="row">
+            <div class="col">
+                <img src="https://placeimg.com/1200/480/any" class="img-fluid" alt="">
+            </div>
+        </section>
+        <!-- Start Cards -->
+        <div class="row">
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/animals" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Animals</h4>
+                        <a href="#" class="card-link btn btn-primary">View Animals</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/arch" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Architecture</h4>
+                        <a href="#" class="card-link btn btn-secondary">View Architecture</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/tech" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Technology</h4>
+                        <a href="#" class="card-link btn btn-danger">View Technology</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/nature" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Nature</h4>
+                        <a href="#" class="card-link btn btn-warning">View Nature</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Start Form -->
+        <div class="row">
+            <form id="form1" lpformnum="1" class="col" novalidate>
+                <div class="form-group">
+                    <label for="formYourName" class="col-form-label">Name</label>
+                    <input type="text" id="formYourName" placeholder="Your Name" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Your name is required.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="formEmail">Email</label>
+                    <input type="email" id="formEmail" placeholder="Your Email" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Your email is required.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="formMessage">Message</label>
+                    <textarea id="formMessage" placeholder="Your Message" class="form-control" required></textarea>
+                    <div class="invalid-feedback">
+                        Your message is required.
+                    </div>
+                </div>
+                <div>
+                    <button type="button" id="btnSubmit" class="btn btn-primary">Go somewhere</button>
+                </div>
+            </form>
+            <div id="thankyou" style="display: none">
+                <h2>Thank You For Reaching Out!</h2>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
