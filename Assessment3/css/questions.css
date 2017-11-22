@@ -1,0 +1,32 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+@media screen and (max-width: 960px) {
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+@media screen and (min-width: 720px) {
+    section.main-content {
+        flex-direction: row;
+    }
+}
+
+
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+*/
+/* At this very moment, flex box */
+
+
+/*
+    Q4 - What is the best CSS property and why?
+*/
+/* Also flex box, because no floats, and I really appreciate the thinking behind it for mobile-first approaches. */
